@@ -1,0 +1,47 @@
+ body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .hero {
+            background: linear-gradient(135deg, #6f42c1, #6610f2);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.25rem;
+        }
+        .events-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: -50px;
+        }
+        .event-card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 15px;
+            width: 300px;
+            transition: transform 0.2s ease;
+        }
+        .event-card:hover {
+            transform: translateY(-5px);
+        }
+        .event-card .card-body {
+            padding: 20px;
+        }
+        .event-card .badge {
+            font-size: 0.9rem;
+        }
+        footer {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: auto;
+        }
